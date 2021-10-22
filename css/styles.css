@@ -1,0 +1,149 @@
+/*GENERAL*/
+
+body{
+    margin:0px;
+}
+#title{
+    background-color: crimson;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+/*NAVBAR SECTION*/
+
+.navbar-brand{
+    font-size:30px;
+    padding-left:10px;
+    padding-right: 20px;
+}
+.nav-item{
+    padding:0px 30px;
+    font-weight: lighter;
+    margin-left:20px;
+}
+
+/* TITLE SECTION */
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+.iphone-image{
+    width:60%;
+    transform: rotate(25deg);
+    margin-top:20px;
+}
+
+/*FEATURE SECTION INVOLVING 3 LOGOS */
+
+#features{
+    padding:7% 15%;    
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+.h3-features{
+    font-family: 'Montserrat', sans-serif;
+}
+.p-features
+{
+    color:grey;
+}
+.logo{
+    color:#FA8072;
+    margin-bottom: 15px;
+}
+.logo:hover{
+    color:crimson;
+}
+
+/*TESTIMONIAL SECTION INVOLVING CAROUSEL*/
+
+#testimonials{
+    background-color:#FA8072;
+    text-align: center;
+    
+}
+.testimonial-text{
+    color:white;
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif;
+    padding:5%;
+    line-height: 2;
+}
+.testimonial-image{
+   border-radius:50px;
+   width:15%;
+   margin-bottom:30px;
+}
+
+/* PRESS SECTION INVOLVING LOGOS */
+
+#press{
+    background-color:#FA8072 ;
+}
+.press-img{
+    margin:50px 20px 70px 150px;
+    width:10%;
+    text-align:center;
+}
+
+/*PRICING SECTION INVOLVING CARDS*/
+
+#pricing{
+    text-align:center ;
+    padding:40px;
+}
+.card-pricing{
+    padding:20px;
+}
+
+/*CTA SECTION*/
+
+#cta{
+    background-color:#FA8072;
+    text-align: center;
+    color:white;
+}
+.cta-h3{
+    padding:20px;
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif ;
+}
+.cta-btn{
+    margin:30px 20px 100px 20px;
+}
+
+/* FOOTER SECTION invloving copywrites*/
+
+#footer{
+    text-align: center;
+    background-color:#FA8072;
+}
+.logo-footer{
+    margin:5px;
+}
+.logo-footer:hover{
+    color: white;
+}
+.p-footer{
+    margin-bottom:0px;
+}
+@media (max-width:998px) {
+    .iphone-image{
+        transform:rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+    .nav-item
+    {
+        text-align: left;
+    }
+}
